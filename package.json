@@ -1,0 +1,28 @@
+{
+  "name": "hoodie-pouchdb-test",
+  "version": "1.0.0",
+  "type": "app",
+  "dependencies": {
+    "hoodie-server": "^2.0.0",
+    "hoodie-plugin-appconfig": "^2.0.1",
+    "hoodie-plugin-users": "^2.1.0",
+    "hoodie": "git://github.com/gr2m/hoodie.js#pouchdb"
+  },
+  "files": [
+    "www/"
+  ],
+  "engines": {
+    "node": ">=0.10.22"
+  },
+  "scripts": {
+    "start": "node node_modules/hoodie-server/bin/start"
+  },
+  "hoodie": {
+    "plugins": [
+      "hoodie-plugin-appconfig",
+      "hoodie-plugin-users"
+    ],
+    "hoodiejs": "node_modules/hoodie/src/hoodie.js"
+  },
+  "description": ""
+}
