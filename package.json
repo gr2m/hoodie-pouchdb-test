@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "type": "app",
   "dependencies": {
-    "hoodie-server": "^2.0.0",
+    "hoodie": "git://github.com/gr2m/hoodie.js#pouchdb",
     "hoodie-plugin-appconfig": "^2.0.1",
     "hoodie-plugin-users": "^2.1.0",
-    "hoodie": "git://github.com/gr2m/hoodie.js#pouchdb"
+    "hoodie-server": "^2.0.1"
   },
   "files": [
     "www/"
