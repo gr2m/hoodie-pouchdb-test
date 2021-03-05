@@ -24,5 +24,6 @@
     ],
     "hoodiejs": "node_modules/hoodie/src/hoodie.js"
   },
-  "description": ""
+  "description": "",
+  "repository": "github:gr2m/hoodie-pouchdb-test"
 }
